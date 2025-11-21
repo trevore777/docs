@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bible Hub App – App Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fa; margin: 0; }
+    .container { max-width: 700px; margin: auto; background: #fff; padding: 36px; margin-top: 42px; border-radius: 8px; box-shadow: 0 0 18px #eaf1f8; }
+    h1, h2 { color: #b96c38; }
+    ul, p { color: #232323; }
+    .back { margin-bottom: 22px; display: block; color: #b96c38; }
+    .section { margin-bottom: 28px; }
+    .note { background: #fff6ed; padding: 10px 14px; border-left: 4px solid #b96c38; font-size: 0.97em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="index.html">&larr; Back to App List</a>
+    <h1>Bible Hub App</h1>
+    <div class="section">
+      <p><strong>Platform:</strong> iOS (SwiftUI with Firebase)</p>
+      <p><strong>Purpose:</strong> Store and search Bible studies by topic, fetch verses (KJV API), sync via Firestore.</p>
+    </div>
+    <h2>Key features / Frameworks</h2>
+    <ul>
+      <li>Firebase Auth (email/password) & Firestore for syncing studies</li>
+      <li>KJV Bible API for verses</li>
+    </ul>
+    <h2>App Store Connect Notes</h2>
+    <ul>
+      <li><strong>Category:</strong> Reference or Education</li>
+      <li><strong>Privacy:</strong> Collects email/password (login) and user-generated notes; all stored on Firebase</li>
+      <li>Privacy Form: "Contact Info (Email)", "User Content (Notes)" – marked as "Collected" and "Linked to user"</li>
+      <li>Needs a Privacy Policy explaining Firebase, authentication, and data handling</li>
+    </ul>
+    <div class="note">
+      <strong>Privacy Policy:</strong> Data (email/password & studies) stored on Firebase servers; access requires login. User content linked to identity.
+    </div>
+  </div>
+</body>
+</html>

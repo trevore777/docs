@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness / Workout Tracker – App Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fa; margin: 0; }
+    .container { max-width: 700px; margin: auto; background: #fff; padding: 36px; margin-top: 42px; border-radius: 8px; box-shadow: 0 0 18px #eaf1f8; }
+    h1, h2 { color: #388da2; }
+    ul, p { color: #232323; }
+    .back { margin-bottom: 22px; display: block; color: #388da2; }
+    .section { margin-bottom: 28px; }
+    .note { background: #f3faff; padding: 10px 14px; border-left: 4px solid #388da2; font-size: 0.97em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="index.html">&larr; Back to App List</a>
+    <h1>Fitness / Workout Tracker</h1>
+    <div class="section">
+      <p><strong>Platform:</strong> watchOS + iOS (SwiftUI)</p>
+      <p><strong>Purpose:</strong> Track workouts, heart rate, steps, distance, energy using HealthKit APIs.</p>
+    </div>
+    <h2>Key features / Frameworks</h2>
+    <ul>
+      <li>HealthKit integration (HKWorkoutSession, HKLiveWorkoutBuilder)</li>
+      <li>Reads and writes health data (workouts, heart rate, steps, etc.)</li>
+    </ul>
+    <h2>App Store Connect Notes</h2>
+    <ul>
+      <li><strong>Category:</strong> Health & Fitness</li>
+      <li><strong>Age rating:</strong> 4+</li>
+      <li><strong>Privacy:</strong> Health data collected and linked to user (all stays on-device unless exported)</li>
+      <li>Uses NSHealthShareUsageDescription & NSHealthUpdateUsageDescription in Info.plist</li>
+    </ul>
+    <div class="note">
+      <strong>Privacy Policy:</strong> All health data stays on the device; required HealthKit permission text is provided.
+    </div>
+  </div>
+</body>
+</html>

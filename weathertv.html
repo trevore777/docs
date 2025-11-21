@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherTV / MarineForecast – App Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fa; margin: 0; }
+    .container { max-width: 700px; margin: auto; background: #fff; padding: 36px; margin-top: 42px; border-radius: 8px; box-shadow: 0 0 18px #eaf1f8; }
+    h1, h2 { color: #4868a2; }
+    ul, p { color: #232323; }
+    .back { margin-bottom: 22px; display: block; color: #4868a2; }
+    .section { margin-bottom: 28px; }
+    .note { background: #eaf2ff; padding: 10px 14px; border-left: 4px solid #4868a2; font-size: 0.97em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="index.html">&larr; Back to App List</a>
+    <h1>WeatherTV / MarineForecast</h1>
+    <div class="section">
+      <p><strong>Platform:</strong> iOS (SwiftUI) prototypes</p>
+      <p><strong>Purpose:</strong> Weather and marine forecast viewer, calls weather APIs based on user location.</p>
+    </div>
+    <h2>Key features / Frameworks</h2>
+    <ul>
+      <li>Calls weather APIs (OpenWeather, etc.)</li>
+      <li>Might use Location Services (for auto-detect)</li>
+    </ul>
+    <h2>App Store Connect Notes</h2>
+    <ul>
+      <li><strong>Category:</strong> Weather</li>
+      <li><strong>Age rating:</strong> 4+</li>
+      <li><strong>Privacy:</strong> If only API queries (no login, no analytics): “No data collected” possible. Mark “Location” if using GPS.</li>
+    </ul>
+    <div class="note">
+      <strong>Privacy Policy:</strong> No personal info or analytics; queries external API for forecast. Review API privacy policy.
+    </div>
+  </div>
+</body>
+</html>

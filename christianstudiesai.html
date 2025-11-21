@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChristianStudiesAI – App Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f7fa; margin: 0; }
+    .container { max-width: 700px; margin: auto; background: #fff; padding: 36px; margin-top: 42px; border-radius: 8px; box-shadow: 0 0 18px #eaf1f8; }
+    h1 { color: #3857b9; }
+    h2 { color: #3857b9; font-size: 1.2em; margin-top: 34px; }
+    ul, p { color: #232323; }
+    .back { margin-bottom: 22px; display: block; color: #3857b9; }
+    .section { margin-bottom: 28px; }
+    .note { background: #ecf6ff; padding: 10px 14px; border-left: 4px solid #3857b9; font-size: 0.97em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="index.html">&larr; Back to App List</a>
+    <h1>ChristianStudiesAI</h1>
+    <div class="section">
+      <p><strong>Platform:</strong> iOS (SwiftUI)</p>
+      <p><strong>Purpose:</strong> AI-powered Christian Studies classroom app for Years 7–12. Features AI chat, lesson timer, colouring & activities.</p>
+    </div>
+    <h2>Key features / Frameworks</h2>
+    <ul>
+      <li>Network calls to AI API (student prompts + lesson text sent to server)</li>
+      <li>No login/accounts – lesson content stored locally (JSON)</li>
+      <li>Interactive activities</li>
+    </ul>
+    <h2>App Store Connect Notes</h2>
+    <ul>
+      <li><strong>Category:</strong> Education (primary), Reference (secondary)</li>
+      <li><strong>Age rating:</strong> 9+ or 12+ (due to internet/AI-generated content)</li>
+      <li><strong>Privacy:</strong>
+        <ul>
+          <li>“User Content” (student questions) sent to 3rd-party AI API</li>
+          <li>Marked as "Data collected but not linked to user" (no accounts, no identifiers; subject to not storing IDs)</li>
+        </ul>
+      </li>
+      <li><strong>URLs:</strong> Needs a Privacy Policy URL</li>
+      <li><strong>TestFlight:</strong> Marketing copy, screenshots, and icon prompts defined</li>
+    </ul>
+    <div class="note">
+      <strong>Privacy Policy:</strong> The app does not store personal info or identifiers; student questions sent to an AI API for educational interaction.
+    </div>
+  </div>
+</body>
+</html>
