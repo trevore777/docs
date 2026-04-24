@@ -2,40 +2,200 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trevor's App Portfolio</title>
+  <title>School Coding Club & Learning Apps</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f7fa; }
-    .container { max-width: 900px; margin: auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 0 24px #eee; margin-top: 32px; }
-    h1 { color: #2579c5; margin-bottom: 24px; }
-    ul { padding-left: 18px; }
-    li { margin-bottom: 22px; }
-    a { color: #2579c5; text-decoration: none; font-weight: bold; }
-    a:hover { text-decoration: underline; }
-    .subtitle { color: #555; font-size: 1.1em; font-weight: normal; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7fb;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #1f4e79;
+      text-align: center;
+    }
+
+    .section {
+      background: #fff;
+      margin-top: 25px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .section h2 {
+      color: #2579c5;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eef3f8;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1f4e79;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .desc {
+      display: block;
+      font-size: 0.95em;
+      color: #555;
+      margin-top: 2px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e8f1fb;
+      color: #1f4e79;
+      font-size: 0.75em;
+      padding: 3px 8px;
+      border-radius: 6px;
+      margin-left: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Trevor's App Portfolio</h1>
-    <p>Explore a collection of apps built for Christian education, wellbeing, creative music, fitness, and more. Each app page includes privacy details and App Store info.</p>
+
+<div class="container">
+
+  <h1>📘 Coding Club & Learning Apps Hub</h1>
+  <p style="text-align:center;">
+    Access all subject apps, workbooks, and learning tools in one place.
+  </p>
+
+  <!-- CODING CLUB -->
+  <div class="section">
+    <h2>💻 Coding Club</h2>
     <ul>
-      <li><a href="christianstudiesai.html">ChristianStudiesAI</a> <span class="subtitle">– AI-powered classroom for Christian Studies</span></li>
-      <li><a href="faithbuilderapp.html">FaithBuilderApp</a> <span class="subtitle">– Bible study companion for students</span></li>
-      <li><a href="biblehubapp.html">Bible Hub App</a> <span class="subtitle">– KJV studies w/ Firebase sync</span></li>
-      <li><a href="studenttracker.html">StudentTracker</a> <span class="subtitle">– Student wellbeing logger</span></li>
-      <li><a href="teacherdiary.html">TeacherDiary</a> <span class="subtitle">– Teacher diary & observation notes</span></li>
-      <li><a href="guitarsongbook.html">GuitarSongBook</a> <span class="subtitle">– Worship song library</span></li>
-      <li><a href="pentecostalsongbook.html">Pentecostal Songbook App</a> <span class="subtitle">– Categorised Christian songbook</span></li>
-      <li><a href="lastdaysapp.html">LastDaysApp</a> <span class="subtitle">– Eschatology timeline tool</span></li>
-      <li><a href="fitnesstracker.html">Fitness / Workout Tracker</a> <span class="subtitle">– HealthKit fitness tracking</span></li>
-      <li><a href="fishingcompanionmini.html">FishingCompanionMini</a> <span class="subtitle">– Fishing trip-planner and logs</span></li>
-      <li><a href="weathertv.html">WeatherTV / MarineForecast</a> <span class="subtitle">– Weather & marine forecast viewer</span></li>
-      <li><a href="utilities.html">CarMaintenanceApp, FitnessHabit, TaiChiRoutine</a> <span class="subtitle">– Personal utility apps</span></li>
-      <li><a href="studentweatheremergency.html">Student-facing Weather Emergency App</a> <span class="subtitle">– Swift Playgrounds assessment</span></li>
+      <li>
+        <a href="/homepage/36034">Coding Club Portal</a>
+        <span class="badge">Internal</span>
+        <span class="desc">Main coding club workspace and resources</span>
+      </li>
+      <li>
+        <a href="https://ai-coding-coach.vercel.app/" target="_blank">Game Builder Assistant</a>
+        <span class="badge">AI Tool</span>
+        <span class="desc">Helps students build games with guided coding support</span>
+      </li>
     </ul>
-    <hr>
-    <p>For privacy policy details, contact information, or TestFlight access, please <a href="mailto:your@email.com">email me</a>.</p>
   </div>
+
+  <!-- ALL SUBJECTS -->
+  <div class="section">
+    <h2>📊 All Subjects</h2>
+    <ul>
+      <li>
+        <a href="https://student-evidence-app.onrender.com" target="_blank">Student Evidence App</a>
+        <span class="badge">Core Tool</span>
+        <span class="desc">Track and submit learning evidence across subjects</span>
+      </li>
+      <li>
+        <a href="https://student-study-planner-hazel.vercel.app/" target="_blank">Homework Assistant</a>
+        <span class="badge">Planner</span>
+        <span class="desc">Organise homework, tasks, and study sessions</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- CHRISTIAN STUDIES -->
+  <div class="section">
+    <h2>✝️ Christian Studies</h2>
+    <ul>
+      <li>
+        <a href="https://essentials-tracker-three.vercel.app/" target="_blank">Salvation Essentials App</a>
+        <span class="badge">Core</span>
+        <span class="desc">Workbook and assessment tool for salvation studies</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- YEAR 7 BUSINESS -->
+  <div class="section">
+    <h2>💼 Year 7 Business</h2>
+    <ul>
+      <li>
+        <a href="https://year7-be-guidance.vercel.app/" target="_blank">Workbook App</a>
+        <span class="desc">Guided learning and activities</span>
+      </li>
+      <li>
+        <a href="https://y7buspartb.vercel.app/" target="_blank">Exam Prep App</a>
+        <span class="desc">Practice questions and revision support</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- DIGITAL TECHNOLOGIES -->
+  <div class="section">
+    <h2>🖥️ Digital Technologies</h2>
+    <ul>
+      <li>
+        <a href="https://edai-web-y7-digital-tech-ai-workboo.vercel.app/" target="_blank">Y7/8 Workbook</a>
+        <span class="desc">Interactive workbook with AI support</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- YEAR 11 DIGITAL SOLUTIONS -->
+  <div class="section">
+    <h2>📈 Year 11 Digital Solutions</h2>
+    <ul>
+      <li>
+        <a href="https://digital-solutions-workbook-coach.vercel.app/" target="_blank">ISMG Alignment Checker</a>
+        <span class="desc">Check assessment against marking criteria</span>
+      </li>
+      <li>
+        <a href="https://edai-web-11digital-solutions-coach.vercel.app/" target="_blank">Weekly Work App</a>
+        <span class="desc">Track IA1 progress and weekly tasks</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- SCHOOL SYSTEMS -->
+  <div class="section">
+    <h2>🏫 School Systems</h2>
+    <ul>
+      <li>
+        <a href="https://raleigh-12-pc-hub.vercel.app/" target="_blank">R12 PC Hub</a>
+        <span class="desc">AI-powered homepage for student access</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Built by Trevor Elliott • Coding Club • Digital Technologies
+  </div>
+
+</div>
+
 </body>
 </html>
